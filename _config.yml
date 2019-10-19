@@ -36,11 +36,8 @@ analytics: # Google Analytics
 markdown: kramdown
 plugins:
   - jekyll-sitemap
-  - jekyll-paginate
   - jemoji
 
-paginate:
-paginate_path: "/page/:num"
 sass:
   sass_dir: css/scss
 
