@@ -9,12 +9,14 @@ site-twitter: #if your site has a twitter account, enter it here
 author: Fabio Pizzati # add your name
 author-img: david-freeman.jpg # add your photo
 about-author: PhD student @VisLab and @Inria # add description
+author-location: Paris
 author-quote: I like cars and AI
 #social-twitter: # add your Twitter handle
 #social-facebook: # add your Facebook handle
 social-github: fabvio # add your Github handle
 #social-linkedin: # add your Linkedin handle
 social-email: c-fpizzati::at::ambarella__dot__com # add your Email address
+
 navigation:
   - title: About me
     url: /
@@ -22,6 +24,8 @@ navigation:
     url: /publications
   - title: Teaching
     url: /teaching
+  - title : CV
+    url: /cv.pdf
 # Disqus
 #discus-identifier: # add your discus identifier
 

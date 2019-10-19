@@ -6,17 +6,16 @@
   <header>
     <div class="nav-container">
     <nav id="navigation">
-      <a href="#" class="logo">Fabio Pizzati</a>
+      <a href="#" class="logo">{{site.author}}</a>
       <a aria-label="mobile menu" class="nav-toggle">
         <span></span>
         <span></span>
         <span></span>
       </a>
         <ul class="menu-left">
-          <li><a href="#about">About me</a></li>
-          <li><a href="#publications">Publications</a></li>
-          <li><a href="#teaching">Teaching</a></li>
-          <li><a href="#cv">CV</a></li>
+          {% for menu-item in site.navigation %}
+          <li><a href="#{{menu-item.url}}">{{menu-item.title}}</a></li>
+          {% endfor %}
         </ul>
     </nav>
   </header>
