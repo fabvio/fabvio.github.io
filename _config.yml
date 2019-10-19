@@ -10,13 +10,18 @@ author: Fabio Pizzati # add your name
 author-img: david-freeman.jpg # add your photo
 about-author: PhD student @VisLab and @Inria # add description
 author-quote: I like cars and AI
-author-location: Paris
 #social-twitter: # add your Twitter handle
 #social-facebook: # add your Facebook handle
 social-github: fabvio # add your Github handle
 #social-linkedin: # add your Linkedin handle
 social-email: c-fpizzati::at::ambarella__dot__com # add your Email address
-
+navigation:
+  - title: About me
+    url: /
+  - title: Publications
+    url: /publications
+  - title: Teaching
+    url: /teaching
 # Disqus
 #discus-identifier: # add your discus identifier
 
@@ -32,5 +37,7 @@ plugins:
 
 paginate:
 paginate_path: "/page/:num"
+sass:
+  sass_dir: css/scss
 
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]

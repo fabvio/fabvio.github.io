@@ -3,10 +3,31 @@
 {% include head.html %}
 <body>
 
+  <header>
+    <div class="nav-container">
+    <nav id="navigation">
+      <a href="#" class="logo">Fabio Pizzati</a>
+      <a aria-label="mobile menu" class="nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+        <ul class="menu-left">
+          <li><a href="#about">About me</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#teaching">Teaching</a></li>
+          <li><a href="#cv">CV</a></li>
+        </ul>
+    </nav>
+  </header>
   <div class="wrapper">
+
     {{ content }}
   </div>
-  
+
   {% include analytics.html %}
+
 </body>
+<script src='assets/js/jquery.js' type='text/javascript'></script>
+<script src='assets/js/navbar.js' type='text/javascript'></script>
 </html>
