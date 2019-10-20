@@ -1,0 +1,2 @@
+# About me
+I'm a [co-tutelle](https://www.jessicaanneyoung.com/blog-1/2017/9/8/cotutelle) PhD student at [Vislab/Ambarella](https://www.vislab.it), located in Parma (Italy) and [Inria - RITS team](https://www.inria.fr), in Paris (France). I am mainly interested in Generative Adversarial Networks and Domain Adaptation, and the purpose of my research is to build perception systems for autonomous driving resistant to adverse weather.

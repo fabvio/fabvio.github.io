@@ -1,17 +1,52 @@
 ---
 layout: main
 ---
-{% for post in paginator.posts %}
-<article class="post">
-  {% if post.img %}
-    <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
-  {% else %}
+{% capture about %}{% include_relative _contents/_about.md %}{% endcapture %}
+{{about | markdownify}}
+
+<h1><a id="publications">Publications</a></h1>
+{% for post in site.posts %}
+    {% if post.ptype == "publication" %}
+    <div class="list-work">
+      <a href="{{post.paper-link}}">
+        <img src="{{site.url}}/{{post.image}}"> <!-- Image is mandatory for publications -->
+      </a>
+      <span>
+      <div><big><b>{{post.title}}</b></big></div>
+      <div><i>{{post.authors | replace: "Pizzati, F.", "<b>Pizzati, F.</b>"}}</i></div>
+      <div><i>{{post.where}}, <b>{{post.year}}</b></i></div>
+      {% for elem in post.res-list %}
+      <span><a href="{{elem.res-link}}">[{{elem.res-title}}]</a></span>
+      {% endfor %}
+      </span>
+    </div>
+    <hr>
+    {% endif %}
+{% endfor %}
+
+<h1><a id="teaching">Teaching</a></h1>
+{% for post in site.posts %}
+  {% if post.ptype == "teaching" %}
+    <div class="list-work">
+      {% if post.image != nil %}
+        {% if post.image-link == nil %}
+        {% assign post.image-link = "#" %}
+        {% endif %}
+        <a href="{{post.img-link}}">
+          <img src="{{site.url}}/{{post.image}}">
+        </a>
+      {% endif %}
+      <span>
+      <div><big><b>{{post.title}}</b></big></div>
+      {% if post.description != nil %}
+      {{post.description}}
+      {% endif %}
+      <div><i>{{post.where}}, <b>{{post.year}}</b></i></div>
+      {% for elem in post.res-list %}
+      <span><a href="{{elem.res-link}}">[{{elem.res-title}}]</a></span>
+      {% endfor %}
+      </span>
+    </div>
+    <hr>
   {% endif %}
-  <div class="post-content">
-    <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
-    <p>{{ post.content | strip_html | truncatewords: 15 }}</p>
-    <span class="post-date">{{post.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;—&nbsp;</span>
-    <span class="post-words">{% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " minute read" }}{% endunless %}</span>
-  </div>
-</article>
 {% endfor %}

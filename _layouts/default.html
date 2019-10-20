@@ -6,7 +6,6 @@
   <header>
     <div class="nav-container">
     <nav id="navigation">
-      <a href="#" class="logo">{{site.author}}</a>
       <a aria-label="mobile menu" class="nav-toggle">
         <span></span>
         <span></span>
@@ -14,7 +13,7 @@
       </a>
         <ul class="menu-left">
           {% for menu-item in site.navigation %}
-          <li><a href="#{{menu-item.url}}">{{menu-item.title}}</a></li>
+          <li><a class="menu-link" href="{{menu-item.url}}">{{menu-item.title}}</a></li>
           {% endfor %}
         </ul>
     </nav>

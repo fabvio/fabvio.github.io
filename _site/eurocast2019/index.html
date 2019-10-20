@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Tags - Fabio Pizzati</title>
+	<title>Lane Detection and Classification using Cascaded CNNs - Fabio Pizzati</title>
 
   <!-- Edit site and author settings in `_config.yml` to make the social details your own -->
 
     <meta content="Fabio Pizzati" property="og:site_name">
   
-    <meta content="Tags" property="og:title">
+    <meta content="Lane Detection and Classification using Cascaded CNNs" property="og:title">
   
   
     <meta content="article" property="og:type">
@@ -17,29 +17,36 @@
     <meta content="Fabio Pizzati" property="og:description">
   
   
-    <meta content="http://localhost:4000/tags/" property="og:url">
+    <meta content="http://localhost:4000/eurocast2019/" property="og:url">
   
   
+    <meta content="2019-05-01T00:00:00+02:00" property="article:published_time">
+    <meta content="http://localhost:4000/about/" property="article:author">
   
-    <meta content="http://localhost:4000/assets/img/david-freeman.jpg" property="og:image">
+  
+    <meta content="http://localhost:4000/assets/img/dumb-photo.jpg" property="og:image">
   
   
+    
+  
+  
+    
   
 
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@">
     <meta name="twitter:creator" content="@">
   
-    <meta name="twitter:title" content="Tags">
+    <meta name="twitter:title" content="Lane Detection and Classification using Cascaded CNNs">
   
   
-    <meta name="twitter:url" content="http://localhost:4000/tags/">
+    <meta name="twitter:url" content="http://localhost:4000/eurocast2019/">
   
   
     <meta name="twitter:description" content="Fabio Pizzati">
   
   
-    <meta name="twitter:image:src" content="http://localhost:4000/assets/img/david-freeman.jpg">
+    <meta name="twitter:image:src" content="http://localhost:4000/assets/img/dumb-photo.jpg">
   
 
 	<meta name="description" content="">
@@ -59,6 +66,8 @@
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+	<!-- academicons -->
+	<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="/assets/fonts/font-awesome/css/font-awesome.min.css">
 	<!-- Styles -->
@@ -70,7 +79,6 @@
   <header>
     <div class="nav-container">
     <nav id="navigation">
-      <a href="#" class="logo">Fabio Pizzati</a>
       <a aria-label="mobile menu" class="nav-toggle">
         <span></span>
         <span></span>
@@ -78,13 +86,11 @@
       </a>
         <ul class="menu-left">
           
-          <li><a href="#/">About me</a></li>
+          <li><a class="menu-link" href="/">About me</a></li>
           
-          <li><a href="#/publications">Publications</a></li>
+          <li><a class="menu-link" href="#publications">Publications</a></li>
           
-          <li><a href="#/teaching">Teaching</a></li>
-          
-          <li><a href="#/cv.pdf">CV</a></li>
+          <li><a class="menu-link" href="#teaching">Teaching</a></li>
           
         </ul>
     </nav>
@@ -95,10 +101,10 @@
   <header>
     <div class="about">
       <div class="cover-author-image">
-        <a href="/"><img src="/assets/img/david-freeman.jpg" alt="Fabio Pizzati"></a>
+        <a href="/"><img src="/assets/img/dumb-photo.jpg" alt="Fabio Pizzati"></a>
       </div>
       <div class="author-name">Fabio Pizzati</div>
-      <!-- <p style="font-style:italic">I like cars and AI</p> -->
+      <!-- <p style="font-style:italic"></p> -->
       <p>PhD student @VisLab and @Inria</p>
       <p><small><i class="fa fa-map-marker"></i> Currently in: <u>Paris</u><small></p>
     </div>
@@ -113,6 +119,12 @@
           <li class="github"><a href="http://github.com/fabvio" target="_blank"><i class="fa fa-github"></i></a></li>
         
         
+          <li class="scholar"><a href="https://scholar.google.it/citations?user=kA_l7GYAAAAJ" target="_blank"><i class="ai ai-google-scholar-square ai-1x"></i></a></li>
+        
+        
+          <li class="researchgate"><a href="https://www.researchgate.net/profile/Fabio_Pizzati" target="_blank"><i class="ai ai-researchgate-square ai-1x"></i></a></li>
+        
+        
         
           <li class="email"><a href="mailto:c-fpizzati::at::ambarella__dot__com"><i class="fa fa-envelope-o"></i></a></li>
         
@@ -125,18 +137,6 @@
 </aside> <!-- End Sidebar -->
 <div class="content-box clearfix">
   
-
-
-<section class="blog-tags">
-  <h1>Tags in Blog</h1>
-  <ul class="tags">
-<!--  cycles through tag list and creates header row of all tags used in site with accompanying per-tag counts...-->
-  
-  </ul>
-<!--cycles through tag list and creates subheader for each tag name...-->
-  
-</section>
-
 </div>
 
   </div>
