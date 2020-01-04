@@ -29,7 +29,7 @@ navigation:
 #discus-identifier: # add your discus identifier
 
 # Tracker
-analytics: # Google Analytics
+analytics: UA-83017705-3 # Google Analytics
 
 # Build Settings
 markdown: kramdown
