@@ -5,7 +5,7 @@ date: 2019-10-01
 
 ptype: publication
 authors: Pizzati, F., de Charette, R., Zaccaria, M., Cerri, P.
-year: 2019
+year: 2020
 type: conference
 where: WACV
 image: assets/img/domainbridge.png
