@@ -7,9 +7,13 @@ ptype: publication
 authors: Pizzati, F., de Charette, R., Zaccaria, M., Cerri, P.
 year: 2019
 type: conference
-where: arXiv preprint (submitted to conference)
+where: WACV
 image: assets/img/domainbridge.png
 res-list:
   - res-link: https://arxiv.org/abs/1910.10563
     res-title: Paper
+  - res-link: assets/pdfs/wacv_supp.pdf
+    res-title: Supplementary
+  - res-link: assets/pdfs/wacv_poster.pdf
+    res-title: Poster
 ---
