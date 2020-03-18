@@ -1779,3 +1779,18 @@ ul.menu-left.collapse {
   -webkit-transform: scale3d(0.9, 0.9, 1);
           transform: scale3d(0.9, 0.9, 1);
 }
+
+div.news {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(200,200,200);
+    border-radius: 10px;
+    vertical-align: text-top;
+    padding: 0px;
+}
+
+ul.news{
+    line-height:0.7em;
+    list-style:none;
+}

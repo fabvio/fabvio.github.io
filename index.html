@@ -4,6 +4,18 @@ layout: main
 {% capture about %}{% include_relative _contents/_about.md %}{% endcapture %}
 {{about | markdownify}}
 
+<h3>News</h3>
+<div class='news'>
+{% for post in site.posts %}
+    <ul class="news">
+    {% if post.ptype == "news" %}
+      <li><b>{{post.stringdate}}</b>: {{post.text}}</li>
+    {% endif %}
+    </ul>
+{% endfor %}
+</div>
+
+
 <h1><a id="publications">Publications</a></h1>
 {% for post in site.posts %}
     {% if post.ptype == "publication" %}
