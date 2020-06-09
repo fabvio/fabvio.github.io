@@ -12,4 +12,6 @@ image: assets/img/modelbased.png
 res-list:
   - res-link: https://arxiv.org/abs/2004.01071
     res-title: Paper
+  - res-link: assets/pdfs/gdr_slides.pdf
+    res-title: GdR ISIS slides
 ---
