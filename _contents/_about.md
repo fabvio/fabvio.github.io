@@ -1,2 +1,5 @@
 # About me
 I'm a [co-tutelle](https://www.jessicaanneyoung.com/blog-1/2017/9/8/cotutelle) PhD student at [Vislab/Ambarella](https://www.vislab.it), located in Parma (Italy) and [Inria - RITS team](https://team.inria.fr/rits/computer-vision/), in Paris (France). I am supervised by [Raoul de Charette](https://team.inria.fr/rits/membres/raoul-de-charette/) and [Pietro Cerri](https://scholar.google.fr/scholar?as_q=&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=Pietro+Cerri&as_publication=&as_ylo=&as_yhi=&hl=en&as_sdt=0%2C5). I am interested in Generative Adversarial Networks and Domain Adaptation, and the purpose of my research is to build perception systems for autonomous driving resistant to adverse weather.
+
+** Reviewer Activity **
+ECCV, AAAI
