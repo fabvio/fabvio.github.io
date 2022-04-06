@@ -4,7 +4,7 @@ layout: main
 {% capture about %}{% include_relative _contents/_about.md %}{% endcapture %}
 {{about | markdownify}}
 
-<h3>News</h3>
+<div><h3>News</h3></div>
 <div class='news'>
 {% for post in site.posts %}
     <ul class="news">
@@ -32,12 +32,9 @@ layout: main
       {% endfor %}
       </span>
     </div>
-    <hr>
     {% endif %}
 {% endfor %}
-
-<div>For a complete list of my publications please visit my <a href="https://scholar.google.com/citations?user=kA_l7GYAAAAJ">Google Scholar profile</a>.</div>
-
+<div style="width:100%">For a complete list of my publications please visit my <a href="https://scholar.google.com/citations?user=kA_l7GYAAAAJ">Google Scholar profile</a>.</div>
 <h1><a id="teaching">Teaching</a></h1>
 {% for post in site.posts %}
   {% if post.ptype == "teaching" %}
@@ -61,6 +58,5 @@ layout: main
       {% endfor %}
       </span>
     </div>
-    <hr>
   {% endif %}
 {% endfor %}
