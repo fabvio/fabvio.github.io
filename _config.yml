@@ -9,7 +9,7 @@ site-twitter: #if your site has a twitter account, enter it here
 author: Fabio Pizzati # add your name
 author-img: photo-0.png # add your photo
 about-author: PhD student @VisLab and @Inria # add description
-author-location: Paris
+#author-location:
 #social-twitter: # add your Twitter handle
 #social-facebook: # add your Facebook handle
 social-github: fabvio # add your Github handle
