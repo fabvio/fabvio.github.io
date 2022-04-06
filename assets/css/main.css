@@ -1788,6 +1788,9 @@ div.news {
     border-radius: 10px;
     vertical-align: text-top;
     padding: 0px;
+    height: 200px;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 ul.news{
