@@ -1,0 +1,110 @@
+---
+---
+
+@String(TPAMI  = {T-PAMI})
+@String(IJCV  = {IJCV})
+@String(CVPR  = {CVPR})
+@String(ICCV  = {ICCV})
+@String(ECCV  = {ECCV})
+@String(ICPR  = {ICPR})
+@String(BMVC  =	{BMVC})
+@String(TOG   = {TOG})
+@String(MM = {MM})
+@String(ICME  =	{ICME})
+@String(ICASSP=	{ICASSP})
+@String(ICIP  = {ICIP})
+@String(ACCV  = {ACCV})
+@String(ICLR  = {ICLR})
+@String(IJCAI = {IJCAI})
+@String(PR = {PR})
+@String(AAAI = {AAAI})
+@String(CVPRW= {CVPRW})
+@String(DLMIA = {DLMIA})
+@String(ThreeDV = {3DV})
+@String(SIGGRAPH = {SIGGRAPH})
+@String(IJRR = {IJRR})
+@String(IROS = {IROS})
+@String(ICRA = {ICRA})
+@String(ECAI = {ECAI})
+@String(CoRL = {CoRL})
+@String(VISAPP = {VISAPP})
+@String(RAL = {RA-L})
+
+
+
+@inproceedings{wacv,
+  title={Domain Bridge for Unpaired Image-to-Image Translation and Unsupervised Domain Adaptation},
+  author={Pizzati, Fabio and de Charette, Raoul and Zaccaria, Michela and Cerri, Pietro},
+  booktitle={WACV},
+  year={2020},
+    abstract={
+             Image-to-image translation architectures may have limited effectiveness in some circumstances. For example, while generating rainy scenarios, they may fail to model typical traits of rain as water drops, and this ultimately impacts the synthetic images realism. With our method, called domain bridge, web-crawled data are exploited to reduce the domain gap, leading to the inclusion of previously ignored elements in the generated images. We make use of a network for clear to rain translation trained with the domain bridge to extend our work to Unsupervised Domain Adaptation (UDA). In that context, we introduce an online multimodal style-sampling strategy, where image translation multimodality is exploited at training time to improve performances. Finally, a novel approach for self-supervised learning is presented, and used to further align the domains. With our contributions, we simultaneously increase the realism of the generated images, while reaching on par performances with respect to the UDA state-of-the-art, with a simpler approach. 
+    },
+    bibtex_show=true,
+    img={/assets/img/domainbridge.png},
+    arxiv_id={1910.10563},
+}
+@inproceedings{eccv,
+  title={Model-based occlusion disentanglement for image-to-image translation},
+  author={Pizzati, Fabio and Cerri, Pietro and de Charette, Raoul},
+  booktitle={ECCV},
+  year={2020},
+  arxiv_id={2004.01071},
+  bibtex_show=true,
+  img={/assets/img/modelbased.png},
+  abstract={Image-to-image translation is affected by entanglement phenomena, which may occur in case of target data encompassing occlusions such as raindrops, dirt, etc. Our unsupervised model-based learning disentangles scene and occlusions, while benefiting from an adversarial pipeline to regress physical parameters of the occlusion model. The experiments demonstrate our method is able to handle varying types of occlusions and generate highly realistic translations, qualitatively and quantitatively outperforming the state-of-the-art on multiple datasets. 
+  },
+
+}
+@inproceedings{manifest,
+  title={{ManiFest: Manifold Deformation for Few-shot Image Translation}},
+  author={Pizzati, Fabio and Lalonde, Jean-François and de Charette, Raoul},
+  booktitle={ECCV},
+  year={2022},
+  abstract={Most image-to-image translation methods require a large number of training images, which restricts their applicability. We instead propose ManiFest: a framework for few-shot image translation that learns a context-aware representation of a target domain from a few images only. To enforce feature consistency, our framework learns a style manifold between source and proxy anchor domains (assumed to be composed of large numbers of images). The learned manifold is interpolated and deformed towards the few-shot target domain via patch-based adversarial and feature statistics alignment losses. All of these components are trained simultaneously during a single end-to-end loop. In addition to the general few-shot translation task, our approach can alternatively be conditioned on a single exemplar image to reproduce its specific style. Extensive experiments demonstrate the efficacy of ManiFest on multiple tasks, outperforming the state-of-the-art on all metrics and in both the general- and exemplar-based scenarios.},
+    img={/assets/img/manifest.png},
+  arxiv_id={2111.13681},
+  bibtex_show=true,
+  code={https://github.com/astra-vision/ManiFest},
+  github_star={https://github.com/astra-vision/ManiFest},
+
+
+}
+@inproceedings{cvpr,
+  title={{CoMoGAN}: continuous model-guided image-to-image translation},
+  author={Pizzati, Fabio and Cerri, Pietro and de Charette, Raoul},
+  booktitle={CVPR (oral)},
+  year={2021},
+  img={/assets/img/comogan.png},
+  arxiv_id={2103.06879},
+  bibtex_show=true,
+  code={https://github.com/astra-vision/CoMoGAN},
+  github_star={https://github.com/astra-vision/CoMoGAN},
+  abstract={CoMoGAN is a continuous GAN relying on the unsupervised reorganization of the target data on a functional manifold. To that matter, we introduce a new Functional Instance Normalization layer and residual mechanism, which together disentangle image content from position on target manifold. We rely on naive physics-inspired models to guide the training while allowing private model/translations features. CoMoGAN can be used with any GAN backbone and allows new types of image translation, such as cyclic image translation like timelapse generation, or detached linear translation. On all datasets, it outperforms the literature.}
+
+}
+
+@inproceedings{visapp,
+  title={Leveraging Local Domains for Image-to-Image Translation},
+  author={Dell'Eva, Anthony and Pizzati, Fabio and Bertozzi, Massimo and de Charette, Raoul},
+  booktitle={VISAPP (best paper award)},
+  year={2022},
+  abstract={Image-to-image (i2i) networks struggle to capture local changes because they do not affect the global scene structure. For example, translating from highway scenes to offroad, i2i networks easily focus on global color features but ignore obvious traits for humans like the absence of lane markings. In this paper, we leverage human knowledge about spatial domain characteristics which we refer to as 'local domains' and demonstrate its benefit for image-to-image translation. Relying on a simple geometrical guidance, we train a patch-based GAN on few source data and hallucinate a new unseen domain which subsequently eases transfer learning to target. We experiment on three tasks ranging from unstructured environments to adverse weather. Our comprehensive evaluation setting shows we are able to generate realistic translations, with minimal priors, and training only on a few images. Furthermore, when trained on our translations images we show that all tested proxy tasks are significantly improved, without ever seeing target domain at training.},
+  img={/assets/img/local.png},
+  arxiv_id={2109.04468},
+  bibtex_show=true,
+}
+
+@article{arxiv,
+  title={Physics-informed guided disentanglement for generative networks},
+  author={Pizzati, Fabio and Cerri, Pietro and de Charette, Raoul},
+  journal={T-PAMI (under revision)},
+  year={2021},
+  abstract={Image-to-image translation (i2i) networks suffer from entanglement effects in presence of physics-related phenomena in target domain (such as occlusions, fog, etc), lowering altogether the translation quality, controllability and variability. In this paper, we build upon collection of simple physics models and present a comprehensive method for disentangling visual traits in target images, guiding the process with a physical model that renders some of the target traits, and learning the remaining ones. Because it allows explicit and interpretable outputs, our physical models (optimally regressed on target) allows generating unseen scenarios in a controllable manner. We also extend our framework, showing versatility to neural-guided disentanglement. The results show our disentanglement strategies dramatically increase performances qualitatively and quantitatively in several challenging scenarios for image translation.},
+  img={/assets/img/guided.png},
+  arxiv_id={2107.14229},
+  bibtex_show=true,
+  code={https://github.com/astra-vision/GuidedDisent},
+  github_star={https://github.com/astra-vision/GuidedDisent},
+}
+
