@@ -24,7 +24,8 @@ Put your address / P.O. box / other info right below your picture. You can also 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
  -->
 
-I am a postdoctoral researcher in the [Torr Vision Group](https://torrvision.com/) at the University of Oxford, working with [Phil Torr](https://www.robots.ox.ac.uk/~phst/). 
+test I am a postdoctoral researcher in the [Torr Vision 
+Group](https://torrvision.com/) at the University of Oxford, working with [Phil Torr](https://www.robots.ox.ac.uk/~phst/). 
 
 Previously, I was a co-tutelle PhD at Vislab/Ambarella, located in Parma (Italy) and Inria [Astra-vision team](https://astra-vision.github.io/), in Paris (France), where I was supervised by [Raoul de Charette](https://team.inria.fr/rits/membres/raoul-de-charette/). 
 
