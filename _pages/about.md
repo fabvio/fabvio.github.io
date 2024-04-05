@@ -10,7 +10,7 @@ profile:
   address: #>
     #<p>🏢 Department of Engineering Science</p> 
     #<p>University of Oxford, Parks Road</p>
-    #<p>OX1 3Pj Oxford, UK</p>
+    #<p>OX1 3PJ Oxford, UK</p>
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -29,7 +29,7 @@ Group](https://torrvision.com/) at the University of Oxford, working with [Phil 
 
 Previously, I was a co-tutelle PhD at Vislab/Ambarella, located in Parma (Italy) and Inria [Astra-vision team](https://astra-vision.github.io/), in Paris (France), where I was supervised by [Raoul de Charette](https://team.inria.fr/rits/membres/raoul-de-charette/). 
 
-I am currently working on large scale diffusion models for image generation, and continual learning. During my PhD, my research focused on generative adversarial network models, in particular for modeling adverse weather and low-light scenarios.
+I am currently working on large scale diffusion models for image generation, and self-supervised learning. During my PhD, my research focused on generative adversarial network models, in particular for modeling adverse weather and low-light scenarios.
 
                     
 		    
