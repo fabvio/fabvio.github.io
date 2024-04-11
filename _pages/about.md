@@ -31,6 +31,8 @@ Previously, I was a co-tutelle PhD at Vislab/Ambarella, located in Parma (Italy)
 
 I am currently working on large scale diffusion models for image generation, and self-supervised learning. During my PhD, my research focused on generative adversarial network models, in particular for modeling adverse weather and low-light scenarios.
 
+<blockquote class="blockquote" style="font-size: 16px;font-weight: bold;">
+  I am currently accepting applications from talented PhD students for internships at TVG on SSL and diffusion models. Drop me an email at fabio AT robots DOT ox DOT ac DOT uk with your idea!</blockquote>
                     
 		    
                 
