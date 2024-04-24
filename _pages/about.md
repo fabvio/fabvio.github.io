@@ -6,7 +6,7 @@ subtitle: #
 
 profile:
   align: right
-  image: fabio.jpeg
+  image: fabio.png
   address: #>
     #<p>🏢 Department of Engineering Science</p> 
     #<p>University of Oxford, Parks Road</p>
