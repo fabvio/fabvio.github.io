@@ -46,7 +46,7 @@
 
 @inproceedings{opensource,
   title={Near to Mid-term Risks and Opportunities of Open Source Generative AI},
-  author={Francisco Eiras, Aleksandar Petrov, Bertie Vidgen, Christian Schroeder de Witt, Fabio Pizzati and others},
+  author={Eiras, Francisco and Petrov, Aleksandar and Vidgen, Bertie and Schroeder de Witt, Christian and Pizzati, Fabio and others},
   booktitle={ICML},
   year={2024},
   abstract={
@@ -57,10 +57,10 @@
 }
 
 
-@inproceedings{latentguard,
+@article{latentguard,
   title={Latent Guard: a Safety Framework for Text-to-image Generation},
-  author={Runtao Liu, Ashkan Khakzar, Jindong Gu, Qifeng Chen, Philip Torr, and Fabio Pizzati},
-  booktitle={under review},
+  author={Liu, Runtao and Khakzar, Ashkan and Gu, Jindong and Chen, Qifeng and Torr, Philip and Pizzati, Fabio},
+  journal={under review},
   year={2024},
   abstract={
        With the ability to generate high-quality images, text-to-image (T2I) models can be exploited for creating inappropriate content. To prevent misuse, existing safety measures are either based on text blacklists, which can be easily circumvented, or harmful content classification, requiring large datasets for training and offering low flexibility. Hence, we propose Latent Guard, a framework designed to improve safety measures in text-to-image generation. Inspired by blacklist-based approaches, Latent Guard learns a latent space on top of the T2I model’s text encoder, where it is possible to check the presence of harmful concepts in the input text embeddings. Our proposed framework is composed of a data generation pipeline specific to the task using large language models, ad-hoc architectural components, and a contrastive learning strategy to benefit from the generated data. The effectiveness of our method is verified on three datasets and against four baselines.
