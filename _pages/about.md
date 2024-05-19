@@ -27,7 +27,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 I am a postdoctoral researcher in the [Torr Vision 
 Group](https://torrvision.com/) at the University of Oxford, working with [Phil Torr](https://www.robots.ox.ac.uk/~phst/). 
 
-Previously, I was a co-tutelle PhD at Vislab/Ambarella, located in Parma (Italy) and Inria [Astra-vision team](https://astra-vision.github.io/), in Paris (France), where I was supervised by [Raoul de Charette](https://team.inria.fr/rits/membres/raoul-de-charette/). 
+Previously, I was a PhD student at Inria [Astra-vision team](https://astra-vision.github.io/), in Paris (France), where I was supervised by [Raoul de Charette](https://team.inria.fr/rits/membres/raoul-de-charette/). 
 
 I am currently working on large scale diffusion models for image/video generation, and self-supervised learning. During my PhD, my research focused on generative adversarial network models, in particular for modeling adverse weather and low-light scenarios.
 
