@@ -25,7 +25,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
  -->
 
 I am a postdoctoral researcher in the [Torr Vision 
-Group](https://torrvision.com/) at the University of Oxford, working with [Phil Torr](https://www.robots.ox.ac.uk/~phst/). 
+Group](https://torrvision.com/) at the University of Oxford, working with [Phil Torr](https://www.robots.ox.ac.uk/~phst/). I am also a member of [ELLIS](https://ellis.eu/).
 
 Previously, I was a PhD student at Inria [Astra-vision team](https://astra-vision.github.io/), in Paris (France), where I was supervised by [Raoul de Charette](https://team.inria.fr/rits/membres/raoul-de-charette/). 
 

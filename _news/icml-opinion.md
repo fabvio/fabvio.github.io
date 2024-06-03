@@ -1,7 +1,7 @@
 ---
 layout: post
 title: # A long announcement with details
-date: 2024-05-02 # yyyy-mm-dd
+date: 2024-06-03 # yyyy-mm-dd
 inline: true
 ---
 
