@@ -24,15 +24,13 @@ Put your address / P.O. box / other info right below your picture. You can also 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
  -->
 
-I am a postdoctoral researcher in the [Torr Vision 
+I am a postdoctoral researcher at MBZUAI, working with [Ivan Laptev](https://www.di.ens.fr/~laptev/). Previously, I was a postdoc at the [Torr Vision 
 Group](https://torrvision.com/) at the University of Oxford, working with [Phil Torr](https://www.robots.ox.ac.uk/~phst/). I am also a member of [ELLIS](https://ellis.eu/).
 
-Previously, I was a PhD student at Inria [Astra-vision team](https://astra-vision.github.io/), in Paris (France), where I was supervised by [Raoul de Charette](https://team.inria.fr/rits/membres/raoul-de-charette/). 
+I did my PhD at Inria [Astra-vision team](https://astra-vision.github.io/), in Paris (France), where I was supervised by [Raoul de 
+Charette](https://team.inria.fr/rits/membres/raoul-de-charette/). 
 
-I am currently working on large scale diffusion models for image/video generation, and self-supervised learning. During my PhD, my research focused on generative adversarial network models, in particular for modeling adverse weather and low-light scenarios.
+I am currently interested in large-scale video diffusion models. In particular, I care about video generation for robotics and embodied AI applications, extending to world modeling and physics-aware 
+learning. I am also interested in AI safety and multi-agent LLM systems.
 
-<blockquote class="blockquote" style="font-size: 16px;font-weight: bold;">
-  I am currently accepting applications from talented PhD students for internships at TVG on SSL and diffusion models. Drop me an email at fabio AT robots DOT ox DOT ac DOT uk with your idea!</blockquote>
-                    
-		    
                 
