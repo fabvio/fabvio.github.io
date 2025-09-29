@@ -8,9 +8,9 @@ profile:
   align: right
   image: fabio.png
   address: #>
-    #<p>🏢 Department of Engineering Science</p> 
-    #<p>University of Oxford, Parks Road</p>
-    #<p>OX1 3PJ Oxford, UK</p>
+    #<p>🏢 Department of Computer Vision</p> 
+    #<p>MBZUAI</p>
+    #<p>Abu Dhabi, UAE</p>
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -30,7 +30,7 @@ Group](https://torrvision.com/) at the University of Oxford, working with [Phil 
 I did my PhD at Inria [Astra-vision team](https://astra-vision.github.io/), in Paris (France), where I was supervised by [Raoul de 
 Charette](https://team.inria.fr/rits/membres/raoul-de-charette/). 
 
-I am currently interested in large-scale video diffusion models. In particular, I care about video generation for robotics and embodied AI applications, extending to world modeling and physics-aware 
-learning. I am also interested in AI safety and multi-agent LLM systems.
-
+I am interested in generative models. Nowadays, my research focuses on 
+control of video models, exploring aspects such as physical consistency, 
+creative applications, and safety.
                 
