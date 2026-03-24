@@ -24,7 +24,7 @@ Put your address / P.O. box / other info right below your picture. You can also 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
  -->
 
-I am a postdoctoral researcher at MBZUAI, working with [Ivan Laptev](https://www.di.ens.fr/~laptev/). Previously, I was a postdoc at the [Torr Vision 
+I am a research scientist and visiting lecturer at MBZUAI. Previously, I was a postdoctoral researcher at MBZUAI, working with [Ivan Laptev](https://www.di.ens.fr/~laptev/). Before that, I was a postdoc at the [Torr Vision 
 Group](https://torrvision.com/) at the University of Oxford, working with [Phil Torr](https://www.robots.ox.ac.uk/~phst/). I am also a member of [ELLIS](https://ellis.eu/).
 
 I did my PhD at Inria [Astra-vision team](https://astra-vision.github.io/), in Paris (France), where I was supervised by [Raoul de 
