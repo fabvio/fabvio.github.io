@@ -33,4 +33,9 @@ Charette](https://team.inria.fr/rits/membres/raoul-de-charette/).
 I am interested in generative models. Nowadays, my research focuses on 
 control of video models, exploring aspects such as physical consistency, 
 creative applications, and safety.
+
+<div style="margin: 1.5rem 0; padding: 0.9rem 1rem; border-left: 4px solid #222; background: #f7f7f7; border-radius: 6px;">
+  <strong>Open PhD scholarship [DL 17/05].</strong> I have an open PhD scholarship with <a href="https://team.inria.fr/rits/membres/raoul-de-charette/">Raoul de Charette</a> at Inria Paris. More details are available <a 
+href="https://astra-vision.github.io/jobs/">here</a>.
+</div>
                 
