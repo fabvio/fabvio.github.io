@@ -50,15 +50,9 @@
                 </a>
               </li>
               {%- endif %}
-              <!-- Blog -->
-              <li class="nav-item {% if page.url contains 'publications' %}active{% endif %}">
-                <a class="nav-link" href="{{ '/publications/' | relative_url }}">publications
-                  
-                  {%-  if page.url contains 'publications' -%}
-                  <span class="sr-only">(current)</span>
-                  {%- endif -%}
-
-                </a>
+              <!-- Publications -->
+              <li class="nav-item">
+                <a class="nav-link" href="https://scholar.google.com/citations?user={{ site.scholar_userid }}">publications</a>
               </li>
 
               <!-- Other pages -->
