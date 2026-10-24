@@ -233,6 +233,28 @@ blockquote {
   }
 }
 
+// PhD opening
+
+.phd-opening {
+  clear: both;
+  margin: 1.5rem 0;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--global-theme-color);
+  border-left-width: 4px;
+  border-radius: 0.25rem;
+  background-color: var(--global-card-bg-color);
+
+  h2 {
+    margin: 0 0 0.5rem;
+    font-size: 1.125rem;
+    font-weight: 600;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
 // Social (bottom)
 
 .social {

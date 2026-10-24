@@ -33,3 +33,9 @@ Charette](https://team.inria.fr/rits/membres/raoul-de-charette/).
 I am interested in generative models. Nowadays, my research focuses on 
 control of video models, exploring aspects such as physical consistency, 
 creative applications, and safety.
+
+<aside class="phd-opening" aria-labelledby="phd-opening-title">
+  <h2 id="phd-opening-title">PhD opening</h2>
+  <p>I have a PhD opening at <strong>Inria Paris</strong> on <strong>Multimodal physically-consistent world modeling</strong>. <strong>Application deadline: 31/10.</strong></p>
+  <p>Information on the thesis and the application process is available in <a href="{{ '/assets/pdf/ellis_thesis.pdf' | relative_url }}">this document (PDF)</a>.</p>
+</aside>
